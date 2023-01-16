@@ -1,0 +1,81 @@
+.liens svg {
+    max-height: 50px;
+    filter: none;
+    -webkit-filter: none;
+}
+
+    img {
+
+        margin:1em;
+        border-radius: 80%;
+        max-width: 160px;
+    }
+
+#titre {
+    text-align: center;
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 26px;
+    margin: 2em;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 20px;
+}
+
+#chercheurs {
+    display: flex;
+    justify-content: space-around;
+}
+
+#autre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carte{
+
+    text-align: center;
+
+    margin-bottom: 2em;
+    width: 15em;
+    background-color: #BDC7E0;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+.liens a {
+    margin: 1em;
+}
+
+.keywords p {
+
+    background: #686868;
+    border-radius: 15px;
+
+    color: #FFFFFF;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3px;
+}
+
+.carte:hover {
+
+    background-color: #2E2E2E;
+    color: white;
+    transition: 500ms;
+}
+
+.carte:hover svg {
+    
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    transition: 500ms;
+}

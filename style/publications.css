@@ -1,0 +1,40 @@
+main {
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 20px;
+}
+
+.carte {
+    display: grid;
+    grid-template-columns: 10% 90%;
+
+    background-color: #BDC7E0;
+    margin: 2em;
+    border-radius: 15px;
+}
+
+.color1, .color2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: 4em;
+    height: 30px;
+    width: 30px;
+}
+
+.color1 {
+    background: #C32B72;
+}
+
+.color2 {
+    background: #196CA3;
+}
+
+.texte {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    margin-left: 2em;
+
+    display: flex;
+    flex-direction: column;
+}

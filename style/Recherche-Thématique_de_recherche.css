@@ -1,0 +1,55 @@
+p {
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#conteneur {
+    padding: 2em;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.description {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#resumer {
+    margin: 1em;
+    text-align: center;
+    font-size: 24px;
+}
+
+#flex_axe {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flex_axe > p {
+    margin: 1em;
+}
+
+#Axe1 {
+    margin: 1em;
+    padding: 1em;
+    background-color: #FFCC9D;
+    border-radius: 20px;
+}
+
+#Axe2 {
+    margin: 1em;
+    padding: 1em;
+    background-color: #9DC4FF;
+    border-radius: 20px;
+}
+
+.Title {
+    margin: 0em;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 24px;
+}

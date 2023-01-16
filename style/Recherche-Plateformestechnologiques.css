@@ -1,0 +1,41 @@
+#flex_platformtech {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.grid_interieur {
+
+    background: #B0AFF4;
+    border-radius: 15px;
+    margin: 2em;
+
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+
+    display: grid;
+    grid-template-columns: 2.5% 20% 2.5% 70% 2.5%;
+    grid-template-rows: 1em 3em 1em;
+}
+
+.titre {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-start: 2;
+}
+
+.texte {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-start: 4;
+}
+.image {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-start: 5;
+}

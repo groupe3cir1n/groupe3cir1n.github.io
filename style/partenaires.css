@@ -1,0 +1,43 @@
+.partenaires {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.internation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carte {
+    background: #BDC7E0;
+    margin: 2em;
+    padding: 1em;
+    min-width: 15em;
+    max-width: 15em;
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 18px;
+
+    text-align: center;
+}
+
+.inter-titre {
+    text-align: center;
+    margin:2em;
+}
+
+img {
+    height: 5em;
+}
+
+.barre {
+    
+    justify-content: none;
+    align-items: none;
+}
+
+.key {
+    background: #505050;
+    border-radius: 25px;
+    color: white
+}

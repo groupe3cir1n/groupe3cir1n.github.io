@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#entete {
+
+    background-color: #343292;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header svg {
+    max-height: 20px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+
+    box-shadow: 1px 2px 8px black;
+    width: 10em;
+}
+
+#accueil {
+    background-image: url("../DocsImgs/LabISEN.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#accueil:hover {
+    background-image: url("../DocsImgs/LabISEN_light.png");
+    transition: 100ms;
+}
+
+.bouton {
+    border-radius: 15%;
+    background-color: #32308B;
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    background: #32308B;
+    text-decoration: none;
+}
+
+.menu li a:active {
+    background-color: #32308B;
+}
+
+.menu li a:hover {
+    background-color: #5856c9;
+}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #32308B;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #5856c9;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+.menu li a {
+    text-align: center;
+    color: #FFFFFF;
+
+    height: 30px;
+
+    border-style: none;
+    border-radius: 6.5% 6.5% 6.5% 6.5%;
+    padding: 20px 20px 20px 20px;
+}
+
+.menu .sousmenu li a {
+    text-align: center;
+    color: #FFFFFF;
+
+    height: 30px;
+
+    border-style: none;
+    border-radius: 0% 0% 0% 0%;
+    padding: 5px 5px 5px 5px;
+}
+
+body {
+
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+footer {
+
+    background-color: #343292;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    font-size: 20px;
+}
+
+.box {
+
+    background-color: #32308B;
+
+    margin: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px black;
+
+    border-style: none;
+    border-radius: 7% 7% 7% 7%;
+    padding: 10px 30px 10px 30px
+
+}
+
+.box:hover {
+
+    background-color: #5856c9;
+
+}
+
+a {
+
+    color: #FFFFFF;
+    text-decoration: none;
+
+}

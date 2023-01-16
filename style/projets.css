@@ -1,0 +1,38 @@
+main {
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 20px;
+}
+
+.boite {
+    display: grid;
+    grid-template-columns: 3% 19% 3% 72% 3%;
+
+    background-color: #B0AFF4;;
+    margin: 2em;
+    border-radius: 15px;
+}
+
+img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+.contenue {
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.souligne {
+    text-decoration: underline;
+    
+}
+
+.titre {
+    text-align: center;
+    margin: 1em;
+}
