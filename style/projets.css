@@ -14,8 +14,11 @@ main {
 }
 
 img {
+    max-width: 100%;
     grid-column-start: 2;
     grid-column-end: 3;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 

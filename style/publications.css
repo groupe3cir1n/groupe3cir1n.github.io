@@ -38,3 +38,11 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+.titre {
+    text-align: center;
+    font-family: 'Average Sans';
+    font-style: normal;
+    font-size: 26px;
+    margin: 2em;
+}

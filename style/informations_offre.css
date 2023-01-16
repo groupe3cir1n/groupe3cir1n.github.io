@@ -30,3 +30,22 @@
 
     margin: 2em;    
 }
+
+@media screen and ( max-width : 900px ) {
+    
+    #tableau {
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #tableau div {
+        margin-bottom: 3%;
+        background-color: #BDB2DB;
+        padding: 1em;
+        border-radius: 15px;
+        justify-content: center;
+        width: 30%;
+    }
+}

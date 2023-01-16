@@ -36,6 +36,7 @@
 .image {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-start: 5;
+    grid-row-start: 3;
+    grid-row-start: 4;
+    max-width: 100%;
 }

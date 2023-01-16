@@ -53,3 +53,13 @@ p {
     text-decoration: underline;
     font-size: 24px;
 }
+
+@media screen and ( max-width : 900px ) {
+    
+    #flex_axe {
+
+        flex-direction: column;
+
+    }
+
+}
