@@ -45,7 +45,6 @@ header svg {
 
 .bouton {
     border-radius: 15%;
-    background-color: #32308B;
 }
 
 .menu li a:link, .menu li a:visited {
@@ -55,11 +54,11 @@ header svg {
     text-decoration: none;
 }
 
-.menu li a:active {
-    background-color: #32308B;
+.menu li a:hover{
+    background-color: #5856c9;
 }
 
-.menu li a:hover {
+.menu li a:visited:hover {
     background-color: #5856c9;
 }
 
