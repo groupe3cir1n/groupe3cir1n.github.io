@@ -49,3 +49,10 @@
         width: 30%;
     }
 }
+
+iframe {
+
+    display: block;
+    margin: auto;
+
+}
