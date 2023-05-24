@@ -10,9 +10,14 @@ function footer(numero){ //function qui se lance dans copy un numéro
 
 function music(){
 
-  const myAudio = document.createElement('audio');
-  myAudio.src = "../Docslmgs/SONGS.mp3";
+  const monAudio = document.querySelector("audio");
 
-  myAudio.play();
+  monAudio.play();
 
 }
+
+/*A mettre dans html :
+
+  <audio src="link"></audio>
+
+*/
