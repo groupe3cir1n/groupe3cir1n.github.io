@@ -11,9 +11,8 @@ function footer(numero){ //function qui se lance dans copy un numéro
 function music(){
 
   const myAudio = document.createElement('audio');
-  myAudio.setAttribute('../Docslmgs/SONGS.mp3','audiofile.mp3');
+  myAudio.src = "../groupe3cir1n.github.io/DocsImgs/SONGS.mp3";
 
-  myAudio.currentTime = 5;
   myAudio.play();
 
 }
