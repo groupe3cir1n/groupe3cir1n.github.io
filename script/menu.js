@@ -1,10 +1,6 @@
 function main(){
     let startdate = 0;
     affiche_heure(startdate);
-    let boutons = document.getElementsByClassName("bouton");
-    for(let i=0 ; i<boutons.length; i++){
-        boutons[i].addEventListener("click", loading);
-    }
 }
 
 function affiche_heure(startdate){
@@ -45,8 +41,10 @@ function affiche_heure(startdate){
     setTimeout(affiche_heure, 1000, startdate);
 }
 
-function loading(){
-    console.log("yee");
+function loading(link){
+    setTimeout(function() {
+        window.location.href = link;
+    }, 2000);
 }
 
 main();
