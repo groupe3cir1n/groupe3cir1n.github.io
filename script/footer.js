@@ -11,7 +11,7 @@ function footer(numero){ //function qui se lance dans copy un numéro
 function music(){
 
   var sound = new Howl({
-    src: ['../Docslmgs/Baka.mp3'],
+    src: ['https://youtu.be/JPZ-QyVBOf8'],
     volume: 1.0,
     onend: function () {
       alert('We finished with the setup!');
