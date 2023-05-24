@@ -10,9 +10,9 @@ function footer(numero){ //function qui se lance dans copy un numéro
 
 function music(){
 
-  const monAudio = document.querySelector("audio");
+  const monAudio = document.querySelector("audio"); //Pour réccupérer la balise
 
-  monAudio.play();
+  monAudio.play(); //Lance la piste audio demain
 
 }
 
