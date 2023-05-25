@@ -2,6 +2,7 @@ function prenom(){
 
     let res = false ; //Valide ou pas
     let value = document.getElementById("input_prenom") ; //Pour réccupérer ce qu'il y a décrit
+    let erreur = document.getElementById("txt_erreur1") ; //Pour réccupérer l'endroit pour mettre un texte s'il y a une erreur d'entrée
     //condition : si il y a un espace et 2 majuscules
     let valid1 = false ; //il y a un " "
     let valid2 = 0 ; //il y a 2 majuscules ou pluche pour faire des mots
@@ -28,12 +29,15 @@ function prenom(){
     if ( res == false ) { //Si erreur
         if (valid1 == true && valid2 < 2){
             console.log("Il manque un mot ( prénom ou nom )");
+            erreur.innerHTML = "Il manque un mot ( prénom ou nom )" ;
         }
         if (valid1 == false && valid2 >= 2){
             console.log("Il manque un espace");
+            erreur.innerHTML = "Il manque un espace" ;
         }
         if (valid1 == false && valid == false){
             console.log("Il manque un espace et un mot ( prénom ou nom )");
+            erreur.innerHTML = "Il manque un espace et un mot ( prénom ou nom )" ;
         }
     } 
 
@@ -47,6 +51,7 @@ function mail(){
     let valid1 = false; //s'il y a @
     let valid2 = false; //s'il y a .
     let value = document.getElementById("input_adresse") ; //Pour réccupérer ce qu'il y a décrit
+    let erreur = document.getElementById("txt_erreur2") ; //Pour réccupérer l'endroit pour mettre un texte s'il y a une erreur d'entrée
 
     let y = value.split(''); //pour transformer une chaine de caractère en tableau
     let n = value.length ; //size
@@ -70,12 +75,15 @@ function mail(){
     if ( res == false ) { //Si erreur
         if (valid1 == true && valid2 == false){
             console.log("Il manque un point");
+            erreur.innerHTML = "Il manque un point" ;
         }
         if (valid1 == false && valid2 == true){
             console.log("Il manque un @");
+            erreur.innerHTML = "Il manque un @" ;
         }
         if (valid1 == false && valid == false){
             console.log("Il manque un @ et un .");
+            erreur.innerHTML = "Il manque un @ et un ." ;
         }
     } 
 
@@ -87,15 +95,16 @@ function txtarea (){
 
     let res = false ;
     let value = document.getElementById("input_area") ;
+    let erreur = document.getElementById("txt_erreur3") ; //Pour réccupérer l'endroit pour mettre un texte s'il y a une erreur d'entrée
     let size = value.length ;
 
     if (size > 1000 ){
         console.log("Votre mail est trop long...");
-        return res ; //ne valide pas la condition
+        erreur.innerHTML = "Votre mail est trop long" ;
     }
     if ( size < 20 ){
         console.log("Votre mail est trop court...");
-        return res ; //ne valide pas la condition
+        erreur.innerHTML = "Votre mail est trop court" ;
     }
     else {
         res = true ; //Bonne taille
