@@ -42,7 +42,16 @@ function affiche_heure(startdate){
 }
 
 function loading(link){
+    /*if(link = "html/Membres.html" || link == "Membres.html"){
+        let ilestsur = confirm("Tu es vraiment sur d'aller sur la page de membre");
+
+        if(!ilestsur){
+
+        }
+    }*/
+    document.body.style.cursor = "wait";
     setTimeout(function() {
+        document.body.style.cursor = "auto";
         window.location.href = link;
     }, 2000);
 }
