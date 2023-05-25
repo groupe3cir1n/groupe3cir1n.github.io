@@ -25,6 +25,18 @@ function prenom(){
         res = true ; //alors le mail est correcte
     }
 
+    if ( res == false ) { //Si erreur
+        if (valid1 == true && valid2 < 2){
+            console.log("Il manque un mot ( prénom ou nom )");
+        }
+        if (valid1 == false && valid2 >= 2){
+            console.log("Il manque un espace");
+        }
+        if (valid1 == false && valid == false){
+            console.log("Il manque un espace et un mot ( prénom ou nom )");
+        }
+    } 
+
     return res ; //si true valide la condition shinon non
 
 }
@@ -54,6 +66,18 @@ function mail(){
     if ( valid1 == true && valid2 == true ){ //si les deux conditions sont valider
         res = true ; //alors le mail est correcte
     }
+
+    if ( res == false ) { //Si erreur
+        if (valid1 == true && valid2 == false){
+            console.log("Il manque un point");
+        }
+        if (valid1 == false && valid2 == true){
+            console.log("Il manque un @");
+        }
+        if (valid1 == false && valid == false){
+            console.log("Il manque un @ et un .");
+        }
+    } 
 
     return res ; //si true valide la condition shinon non
 
