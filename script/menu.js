@@ -41,14 +41,34 @@ function affiche_heure(startdate){
     setTimeout(affiche_heure, 1000, startdate);
 }
 
-function loading(link){
-    /*if(link = "html/Membres.html" || link == "Membres.html"){
-        let ilestsur = confirm("Tu es vraiment sur d'aller sur la page de membre");
+function loading(link, box){
 
-        if(!ilestsur){
-
+    if(box == document.getElementById("accueil")){
+        console.log("le même !");
+        box.style.backgroundImage = "url(../DocsImgs/LabISEN_click.png)";
+    } else {
+        console.log("ou pas !");
+        box.style.backgroundColor = "#AAAAAA";
+        box.style.color = "#000000";
+        if(box.children[0]){
+            let svg = box.children[0];
+            svg.style.fill = "#FFFFFF"; /* très étrange d'appliquer du blanc... mais cela met les svg en noir*/
         }
-    }*/
+        console.log("Couleur fond avant : #5856c9 \nCouleur fond maintenant : #AAAAAA\nCouleur texte avant : #FFFFFF\nCouleur texte maintenant : #000000");
+    }
+
+
+    if(link == "html/Membres.html" || link == "Membres.html"){
+        let ilestsur = confirm("Tu es vraiment sur d'aller sur la page de membre");
+        if(!ilestsur){
+            box.style.backgroundColor = "#5856c9";
+            box.style.color = "#FFFFFF";
+            svg.style.fill = "#000000"; 
+            return;
+        }
+    }
+
+
     document.body.style.cursor = "wait";
     setTimeout(function() {
         document.body.style.cursor = "auto";
