@@ -1,11 +1,13 @@
 function changeImage1(){
 
-    if(document.getElementById('img1').value=="../DocsImgs/illu/globe-solid.png"){
-        img.src=="../DocsImgs/illu/Iot.png";
+    let img = document.getElementById('img1').src ;
+
+    if( img == "../DocsImgs/illu/globe-solid.png" ){
+        img = "../DocsImgs/illu/Iot.png";
         console.log("poulpe");
     }
-    else if(document.getElementById('img1').value=="../DocsImgs/illu/Iot.png"){
-        img.src=="../DocsImgs/illu/globe-solid.png";
+    else if( img == "../DocsImgs/illu/Iot.png" ){
+        img = "../DocsImgs/illu/globe-solid.png";
         console.log("octopus");
     }
 
@@ -13,33 +15,45 @@ function changeImage1(){
 
 function changeImage2(){
 
-    if(document.getElementById('img2').value=="../DocsImgs/illu/visemar.png"){
-        img.src=="../DocsImgs/illu/requin_baleine.jfif";
+    let img = document.getElementById('img2').src ;
+
+    if( img == "../DocsImgs/illu/visemar.png" ){
+        img = "../DocsImgs/illu/requin_baleine.jfif";
+        console.log("poulpe");
     }
-    else if(document.getElementById('img2').value=="../DocsImgs/illu/requin_baleine.jfif"){
-        img.src=="../DocsImgs/illu/visemar.png";
+    else if( img == "../DocsImgs/illu/requin_balein.jfif" ){
+        img = "../DocsImgs/illu/visemar.png";
+        console.log("octopus");
     }
 
 }	
 
 function changeImage3(){
 
-    if(document.getElementById('img3').value=="../DocsImgs/illu/seas.png"){
-        img.src=="../DocsImgs/illu/phoque.png";
+    let img = document.getElementById('img3').src ;
+
+    if( img == "../DocsImgs/illu/seas.png" ){
+        img = "../DocsImgs/illu/phoque.png";
+        console.log("poulpe");
     }
-    else if(document.getElementById('img3').value=="../DocsImgs/illu/phoque.png"){
-        img.src=="../DocsImgs/illu/seas.png";
+    else if( img == "../DocsImgs/illu/phoque.png" ){
+        img = "../DocsImgs/illu/seas.png";
+        console.log("octopus");
     }
 
 }	
 
 function changeImage4(){
 
-    if(document.getElementById('img4').value=="../DocsImgs/illu/hpec.png"){
-        img.src=="../DocsImgs/illu/octopus.png";
+    let img = document.getElementById('img4').src ;
+
+    if( img == "../DocsImgs/illu/hpec.png" ){
+        img = "../DocsImgs/illu/octopus.png";
+        console.log("poulpe");
     }
-    else if(document.getElementById('img4').value=="../DocsImgs/illu/octopus.png"){
-        img.src=="../DocsImgs/illu/hpec.png";
+    else if( img == "../DocsImgs/illu/octopus.png" ){
+        img = "../DocsImgs/illu/hpec.png";
+        console.log("octopus");
     }
 
 }
