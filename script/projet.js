@@ -1,17 +1,11 @@
-function main(){
+const button = document.querySelector('.btn');
 
-    let button = document.querySelector(".btn");
+button.addEventListener('click', () => {
 
-    button.addEventListener('click', () => {
-
-        Window.scrollTo({
-            top : 0,
-            left : 0,
-            behavior : "smooth"
-        })
-    
+    Window.scrollTo({
+        top : 0,
+        left : 0,
+        behavior : "smooth"
     })
 
-}
-
-main();
+})
