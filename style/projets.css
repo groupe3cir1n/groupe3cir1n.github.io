@@ -39,3 +39,21 @@ img {
     text-align: center;
     margin: 1em;
 }
+
+.btn {
+    height: 100px;
+    width: 100px;
+    background-color: #ff82af;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.icone {
+    width: 50px;
+}
