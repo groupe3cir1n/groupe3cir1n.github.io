@@ -36,7 +36,7 @@ function changeImage4(){
     if(document.getElementById('img4').value=="../DocsImgs/illu/hpec.png"){
         img.src=="../DocsImgs/illu/octopus.png";
     }
-    else if(docuemtn.getElementById('img4').value=="../DocsImgs/illu/octopus.png){
+    else if(docuemtn.getElementById('img4').value=="../DocsImgs/illu/octopus.png"){
         img.src=="../DocsImgs/illu/hpec.png";
     }
 
