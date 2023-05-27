@@ -1,6 +1,6 @@
 function changeImage1(){
 
-    let img = document.getElementById('#img1').src ;
+    let img = document.getElementById('img1').src ;
     console.log("canard");
 
     if( img == "../DocsImgs/illu/globe-solid.png" ){
@@ -16,7 +16,7 @@ function changeImage1(){
 
 function changeImage2(){
 
-    let img = document.getElementById('#img2').src ;
+    let img = document.getElementById('img2').src ;
     console.log("canard");
 
     if( img == "../DocsImgs/illu/visemar.png" ){
@@ -32,7 +32,7 @@ function changeImage2(){
 
 function changeImage3(){
 
-    let img = document.getElementById('#img3').src ;
+    let img = document.getElementById('img3').src ;
     console.log("canard");
 
     if( img == "../DocsImgs/illu/seas.png" ){
@@ -48,7 +48,7 @@ function changeImage3(){
 
 function changeImage4(){
 
-    let img = document.getElementById('#img4').src ;
+    let img = document.getElementById('img4').src ;
     console.log("canard");
 
     if( img == "../DocsImgs/illu/hpec.png" ){
