@@ -2,9 +2,11 @@ function changeImage1(){
 
     if(document.getElementById('img1').value=="../DocsImgs/illu/globe-solid.png"){
         img.src=="../DocsImgs/illu/Iot.png";
+        console.log("poulpe");
     }
     else if(document.getElementById('img1').value=="../DocsImgs/illu/Iot.png"){
         img.src=="../DocsImgs/illu/globe-solid.png";
+        console.log("octopus");
     }
 
 }	
