@@ -12,9 +12,9 @@ function changeImage1(){
 function changeImage2(){
 
     if(document.getElementById('img2').value=="../DocsImgs/illu/visemar.png"){
-        img.src=="mouton22.png";
+        img.src=="../DocsImgs/illu/requin_baleine.jfif";
     }
-    else if(docuemtn.getElementById('img2').value=="mouton22.png"){
+    else if(docuemtn.getElementById('img2').value=="../DocsImgs/illu/requin_baleine.jfif"){
         img.src=="../DocsImgs/illu/visemar.png";
     }
 
@@ -23,9 +23,9 @@ function changeImage2(){
 function changeImage3(){
 
     if(document.getElementById('img3').value=="../DocsImgs/illu/seas.png"){
-        img.src=="mouton22.png";
+        img.src=="../DocsImgs/illu/phoque.png";
     }
-    else if(docuemtn.getElementById('img3').value=="mouton22.png"){
+    else if(docuemtn.getElementById('img3').value=="../DocsImgs/illu/phoque.png"){
         img.src=="../DocsImgs/illu/seas.png";
     }
 
@@ -34,9 +34,9 @@ function changeImage3(){
 function changeImage4(){
 
     if(document.getElementById('img4').value=="../DocsImgs/illu/hpec.png"){
-        img.src=="mouton22.png";
+        img.src=="../DocsImgs/illu/octopus.png";
     }
-    else if(docuemtn.getElementById('img4').value=="mouton22.png"){
+    else if(docuemtn.getElementById('img4').value=="../DocsImgs/illu/octopus.png){
         img.src=="../DocsImgs/illu/hpec.png";
     }
 
