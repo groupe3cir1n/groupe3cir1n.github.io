@@ -8,10 +8,7 @@ function main(){
 
         console.log("click");
 
-        button.scrollTop({
-            top:0,
-            behavior : "smooth"
-        })
+        window.scrollTo(0, 0);
 
     })
 
