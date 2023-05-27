@@ -41,10 +41,12 @@ img {
 }
 
 .btn {
-    height: 75px;
-    width: 75px;
-    background-color: #ff82af;
+    height: 50px;
+    width: 50px;
+    background-color: #32308B;
     border-radius: 50%;
+    border-style: solid;
+    border-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,6 +57,6 @@ img {
 }
 
 .icone {
-    width: 50px;
+    width: 25px;
     border-radius: 50%;
 }
