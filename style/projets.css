@@ -41,8 +41,8 @@ img {
 }
 
 .btn {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     background-color: #ff82af;
     border-radius: 50%;
     display: flex;
@@ -56,4 +56,5 @@ img {
 
 .icone {
     width: 50px;
+    border-radius: 50%;
 }
