@@ -1,45 +1,63 @@
 function changeImage1(){
 
-    if(document.getElementById('img1').value=="../DocsImgs/illu/globe-solid.png"){
-        img.src=="../DocsImgs/illu/Iot.png";
-        console.log("poulpe");
+    let img = document.getElementById('img1') ;
+    //console.log("canard");
+
+    if( img.src.match('http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/globe-solid.png')){
+        img.src = 'http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/Iot.png' ;
+        //console.log("poulpe");
     }
-    else if(document.getElementById('img1').value=="../DocsImgs/illu/Iot.png"){
-        img.src=="../DocsImgs/illu/globe-solid.png";
-        console.log("octopus");
+    else {
+        img.src = 'http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/globe-solid.png' ;
+        //console.log("octopus");
     }
 
-}	
+}
 
 function changeImage2(){
 
-    if(document.getElementById('img2').value=="../DocsImgs/illu/visemar.png"){
-        img.src=="../DocsImgs/illu/requin_baleine.jfif";
+    let img = document.getElementById('img2') ;
+    //console.log("canard");
+
+    if( img.src.match('http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/visemar.png')){
+        img.src = 'http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/requin_baleine.jfif' ;
+        //console.log("poulpe");
     }
-    else if(document.getElementById('img2').value=="../DocsImgs/illu/requin_baleine.jfif"){
-        img.src=="../DocsImgs/illu/visemar.png";
+    else {
+        img.src = 'http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/visemar.png' ;
+        //console.log("octopus");
     }
 
-}	
+}
 
 function changeImage3(){
 
-    if(document.getElementById('img3').value=="../DocsImgs/illu/seas.png"){
-        img.src=="../DocsImgs/illu/phoque.png";
+    let img = document.getElementById('img3') ;
+    //console.log("canard");
+
+    if( img.src.match('http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/seas.png')){
+        img.src = 'http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/phoque.png' ;
+        //console.log("poulpe");
     }
-    else if(document.getElementById('img3').value=="../DocsImgs/illu/phoque.png"){
-        img.src=="../DocsImgs/illu/seas.png";
+    else {
+        img.src = 'http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/seas.png' ;
+        //console.log("octopus");
     }
 
-}	
+}
 
 function changeImage4(){
 
-    if(document.getElementById('img4').value=="../DocsImgs/illu/hpec.png"){
-        img.src=="../DocsImgs/illu/octopus.png";
+    let img = document.getElementById('img4') ;
+    //console.log("canard");
+
+    if( img.src.match('http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/hpec.png')){
+        img.src = 'http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/octopus.png' ;
+        //console.log("poulpe");
     }
-    else if(document.getElementById('img4').value=="../DocsImgs/illu/octopus.png"){
-        img.src=="../DocsImgs/illu/hpec.png";
+    else {
+        img.src = 'http://127.0.0.1:5500/groupe3cir1n.github.io/DocsImgs/illu/hpec.png' ;
+        //console.log("octopus");
     }
 
 }
