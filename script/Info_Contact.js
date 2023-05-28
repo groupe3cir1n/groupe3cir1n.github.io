@@ -1,13 +1,17 @@
 function prenom(){
 
     let res = false ; //Valide ou pas
-    let value = document.getElementById("input_prenom") ; //Pour réccupérer ce qu'il y a décrit
+    let value = document.getElementById("input_prenom").innerText ; //Pour réccupérer ce qu'il y a décrit
+
+    console.log("octopus");
+    console.log(value);
+
     let erreur = document.getElementById("txt_erreur1") ; //Pour réccupérer l'endroit pour mettre un texte s'il y a une erreur d'entrée
     //condition : si il y a un espace et 2 majuscules
     let valid1 = false ; //il y a un " "
     let valid2 = 0 ; //il y a 2 majuscules ou pluche pour faire des mots
 
-    let y = value.split(''); //pour transformer une chaine de caractère en tableau
+    let y = value.split(""); //pour transformer une chaine de caractère en tableau
     let n = value.length ; //size
 
     for ( let i = 0 ; i < n ; i ++ ){ //boucle pour visiter le tableau
@@ -53,7 +57,7 @@ function mail(){
     let value = document.getElementById("input_adresse") ; //Pour réccupérer ce qu'il y a décrit
     let erreur = document.getElementById("txt_erreur2") ; //Pour réccupérer l'endroit pour mettre un texte s'il y a une erreur d'entrée
 
-    let y = value.split(''); //pour transformer une chaine de caractère en tableau
+    let y = value.split(); //pour transformer une chaine de caractère en tableau
     let n = value.length ; //size
 
     for ( let i = 0 ; i < n ; i ++ ){ //boucle pour visiter le tableau
@@ -118,16 +122,29 @@ function txtarea (){
 function submit (){
 
     let button = document.getElementById("button");
+    console.log("poulpe");
 
-    if (prenom() == true){
-        if (mail() == true){
-            if (txtarea () == true){
-                button.setAttribute("disabled", false) ; //On peut appuyer sur envoyer
-                //jeu() ;//lance le jeu ausshi
+    let i = 0;
+
+    while(i == 0 ){
+        console.log("prout");
+        if (prenom() == true){
+            if (mail() == true){
+                if (txtarea () == true){
+                    button.setAttribute("disabled", false) ; //On peut appuyer sur envoyer
+                    //jeu() ;//lance le jeu ausshi
+                }else{
+                    console.log("text area wrong");
+                }
+            }
+            else{
+                console.log("mail wrong");
             }
         }
+        else{
+            console.log("prenom wrong");
+        }
     }
-
 }
 
 /*function jeu () {
@@ -135,3 +152,5 @@ function submit (){
 
 
 }*/
+
+submit();

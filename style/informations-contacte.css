@@ -58,3 +58,10 @@ svg {
     background-color: #00ADD3;
     transition: 300ms;
 }
+
+#form {
+
+    display: block;
+    margin: auto;
+
+}
