@@ -4,12 +4,15 @@
     -webkit-filter: none;
 }
 
-    img {
+img {
+    margin:1em;
+    border-radius: 80%;
+    max-width: 160px;
+}
 
-        margin:1em;
-        border-radius: 80%;
-        max-width: 160px;
-    }
+canvas {
+    position: absolute;
+}
 
 #titre {
     text-align: center;
