@@ -1,10 +1,7 @@
 function prenom(){
 
     let res = false ; //Valide ou pas
-    let value = document.getElementById("input_prenom").innerText ; //Pour réccupérer ce qu'il y a décrit
-
-    console.log("octopus");
-    console.log(value);
+    let value = document.getElementById("input_prenom").value ; //Pour réccupérer ce qu'il y a décrit
 
     let erreur = document.getElementById("txt_erreur1") ; //Pour réccupérer l'endroit pour mettre un texte s'il y a une erreur d'entrée
     //condition : si il y a un espace et 2 majuscules
@@ -54,7 +51,7 @@ function mail(){
     let res = false ;
     let valid1 = false; //s'il y a @
     let valid2 = false; //s'il y a .
-    let value = document.getElementById("input_adresse") ; //Pour réccupérer ce qu'il y a décrit
+    let value = document.getElementById("input_adresse").value ; //Pour réccupérer ce qu'il y a décrit
     let erreur = document.getElementById("txt_erreur2") ; //Pour réccupérer l'endroit pour mettre un texte s'il y a une erreur d'entrée
 
     let y = value.split(); //pour transformer une chaine de caractère en tableau
@@ -98,7 +95,7 @@ function mail(){
 function txtarea (){
 
     let res = false ;
-    let value = document.getElementById("input_area") ;
+    let value = document.getElementById("input_area").value ;
     let erreur = document.getElementById("txt_erreur3") ; //Pour réccupérer l'endroit pour mettre un texte s'il y a une erreur d'entrée
     let size = value.length ;
 
@@ -111,6 +108,7 @@ function txtarea (){
         erreur.innerHTML = "Votre mail est trop court" ;
     }
     else {
+        erreur.innerHTML = "Votre mail est à la bonne taille" ;
         res = true ; //Bonne taille
         
     }
@@ -119,38 +117,45 @@ function txtarea (){
 
 }
 
-function submit (){
+/*function submit (){
 
     let button = document.getElementById("button");
     console.log("poulpe");
 
-    let i = 0;
-
-    while(i == 0 ){
-        console.log("prout");
-        if (prenom() == true){
-            if (mail() == true){
-                if (txtarea () == true){
-                    button.setAttribute("disabled", false) ; //On peut appuyer sur envoyer
-                    //jeu() ;//lance le jeu ausshi
-                }else{
-                    console.log("text area wrong");
-                }
-            }
-            else{
-                console.log("mail wrong");
+    console.log("prout");
+    if (prenom() == true){
+        if (mail() == true){
+            if (txtarea () == true){
+                button.setAttribute("disabled", false) ; //On peut appuyer sur envoyer
+                //jeu() ;//lance le jeu ausshi
+            }else{
+                console.log("text area wrong");
             }
         }
         else{
-            console.log("prenom wrong");
+            console.log("mail wrong");
         }
+    }
+    else{
+        console.log("prenom wrong");
     }
 }
 
-/*function jeu () {
+function jeu () {
 
 
 
-}*/
+}
 
-submit();
+submit();*/
+
+function main(){
+
+    prenom();
+    console.log(prenom());
+    mail();
+    console.log(mail());
+    txtarea();
+    console.log(txtarea());
+
+}
