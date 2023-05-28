@@ -1,26 +1,39 @@
 #forme {
     display: grid;
     grid-template-columns: 5% 50% 5% 35% 5%;
-    grid-template-rows: 1em 17% 2em 2em 1fr;
+    grid-template-rows: 1em 3em 17% 2em 2em 1fr;
     margin: 0;
 }
 
 #description {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 
     font-family: 'Average Sans';
     font-style: normal;
     font-size: 20px;
 }
 
+#qui {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 20px;
+
+    text-align: center;
+}
+
 #lien {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
 
     font-family: 'Average Sans';
     font-style: normal;
@@ -43,20 +56,20 @@
 #competences {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
 
     max-width: 100%;
     max-height: 100%;
 
-    margin-bottom: 2em;
+    margin: auto;
 }
 
 #actualites {
     grid-column-start: 4;
     grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 7;
 
     background-color: #BDB2DB;
     padding: 1em;
