@@ -8,7 +8,8 @@
         <link href="../style/Recherche-Plateformestechnologiques.css" rel="stylesheet">
         <script src="../script/main.js" defer></script>
         <script src="../script/menu.js" defer></script>
-        <script src="../script/footer.js" defer></script>    
+        <script src="../script/footer.js" defer></script>
+        <script src="../script/recherche_platforme.js" defer></script>  
     </head>
 
     <body oncopy="plagiat()">
@@ -58,7 +59,7 @@
             <div id="flex_platformetech">
                 <div class="grid_interieur">
                     <div class="titre">
-                        <h3>Chambre connectée (Living Lab)</h3>
+                        <h3 id="lab">Chambre connectée (Living Lab)</h3>
                         <hr>
                     </div>
                     <p class="texte">
@@ -79,14 +80,32 @@
                     </p>
                     <img src="../DocsImgs/illu/living_lab.png" class="image">
                 </div>
+
+                <!-- Modal -->
+                <div id="Modal_Lab" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close_lab">&times;</span>
+                    <p id="titre_modal">Chambre connectée (Living Lab)</p>
+                    <p>Le living Lab est le fruit de collaboration avec l’entreprise de mutuelle santé Malakoff Médéric.
+                      Initialement, ce Living Lab avait pour but de détecter la chute des personnes âgées sans utiliser 
+                      de capteurs portés (bracelet, médaillon...). Une solution a été proposée en utilisant un capteur de type 
+                      Kinect permettant de garantir le respect de la vie privée et de connaitre à chaque  nstant la position 
+                      de la personne dans le studio. Afin d'étendre les possibilités du studio, un ensemble de capteurs ont été 
+                      ajoutés : prises connectées, capteurs d'environnements, température, lumière, humidité, gaz...), capteurs 
+                      de consommation (électricité, eau), Caméras, micro et haut parleurs.</p>
+                    <img src="../DocsImgs/illu/living_lab.png" class="image">
+                  </div>
+                </div>
+
                 <div class="grid_interieur">
                     <div class="titre">
-                        <h3 class="titre">Environnement hybrides connectés</h3>
+                        <h3 class="titre" id="hybr">Environnement hybrides connectés</h3>
                         <hr>
                     </div>
                     <div class="texte">
                         <p>
-                            LCette plateforme est en cours de développement et vise à offrir des services à la personne dans 
+                            Cette plateforme est en cours de développement et vise à offrir des services à la personne dans 
                             des environnements indoor (bureau connecté, école connectée, usine connectée, …). Parmi les services, 
                             nous envisageons l’étude du comportement des personnes, la détection d’anomalies et la sécurité de 
                             l’environnement. Deux enjeux majeurs sont traités :
@@ -106,6 +125,21 @@
                     </div>
                     <img src="../DocsImgs/illu/fog-computing.png" class="image">
                 </div>
+
+                <!-- Modal -->
+                <div id="Modal_Hybr" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close_hybr">&times;</span>
+                    <p id="titre_modal">Environnement hybrides connectés</p>
+                    <p>Cette plateforme est en cours de développement et vise à offrir des services à la personne dans 
+                      des environnements indoor (bureau connecté, école connectée, usine connectée, …). Parmi les services, 
+                      nous envisageons l’étude du comportement des personnes, la détection d’anomalies et la sécurité de 
+                      l’environnement.</p>
+                      <img src="../DocsImgs/illu/fog-computing.png" class="image">
+                  </div>
+                </div>
+
             </div>
         </main>
         <footer>
