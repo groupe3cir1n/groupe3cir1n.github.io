@@ -1,0 +1,31 @@
+body{
+
+    background-image: url("../DocsImgs/jeu/backgroun.png");
+
+}
+
+#jeu {
+
+    background-color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    width: 750px;
+    height: 500px;
+
+    display: block;
+    margin: auto;
+    justify-content: space-around;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+
+}
+
+table{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
