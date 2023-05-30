@@ -3,15 +3,15 @@ function prenom_nom(){
     let res = false ;
     
     let name = document.getElementById("input_prenom").value;
-    console.log(name);
+    //console.log(name);
 
     let erreur = document.getElementById("txt_erreur1") ;
 
     let tab_name = name.split("");
-    console.log(tab_name);
+    //console.log(tab_name);
 
     let n = tab_name.length ;
-    console.log(n);
+    //console.log(n);
 
     valid1 = 0 ; // Il n'y a pas de majuscule ( il en faut deux )
     valid2 = false ; //false si il n'y a pas de ' '
@@ -48,7 +48,7 @@ function prenom_nom(){
         erreur.innerHTML = "";
     }
 
-    console.log(res);
+    //console.log(res);
     return res ;
 
 }
@@ -58,15 +58,15 @@ function adresse_mail(){
     let res = false ;
     
     let mail = document.getElementById("input_adresse").value;
-    console.log(mail);
+    //console.log(mail);
 
     let erreur = document.getElementById("txt_erreur2") ;
 
     let tab_mail = mail.split("");
-    console.log(tab_mail);
+    //console.log(tab_mail);
 
     let n = tab_mail.length ;
-    console.log(n);
+    //console.log(n);
 
     valid1 = false ; // Il y a un @
     valid2 = false ; //false si il n'y a pas de point
@@ -103,7 +103,7 @@ function adresse_mail(){
         erreur.innerHTML = " ";
     }
 
-    console.log(res);
+    //console.log(res);
     return res ;
 
 }
@@ -147,7 +147,7 @@ function submit_form(){
         if ( adresse_mail() == true ){
             if ( text_area() == true ) {
                 console.log("Bravo");
-                window.location="../html/jeu.html";
+                window.location.replace("/groupe3cir1n.github.io/html/jeu.html");
             }
             else{
                 console.log("text area wrong");
