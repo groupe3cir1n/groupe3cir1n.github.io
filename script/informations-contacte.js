@@ -43,7 +43,7 @@ function prenom_nom(){
         }
     }
     
-    else if ( valid1 >= 2 && valid2 == true ){
+    if ( valid1 >= 2 && valid2 == true ){
         res = true;
         erreur.innerHTML = "";
     }
