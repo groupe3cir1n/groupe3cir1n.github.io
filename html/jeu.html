@@ -22,10 +22,10 @@
                 </tr>
                 <tr>
                     <td id="type">
-                        <img src="../DocsImgs/jeu/Type_Inconnu.png" id="Type Inconnu">
+                        <img src="../DocsImgs/jeu/Type_Inconnu.png" id="Unknown">
                     </td>
                     <td>
-                        <input type="text" class="form-control" placeholder="Type..." id="input_type" oninput="type()">
+                        <input type="text" class="form-control" placeholder="Type..." id="input_type" onkeypress="type()">
                     </td>
                 </tr>
                 <tr>
@@ -37,6 +37,8 @@
                 </tr>
 
             </table>
+
+            <input type="submit" id="button" value="Jouer" onclick="affichage_type()">
 
             <div>
                 <img src="../DocsImgs/jeu/Type_Acier.png" id="Type Acier" alt="Logo du type Acier ( pkmn EV)">
