@@ -416,7 +416,7 @@ function Maison(){
     if ( document.getElementById("ruban1").src.match("../DocsImgs/jeu/Ruban_vert.png")){
         if ( document.getElementById("ruban2").src.match("../DocsImgs/jeu/Ruban_rouge.png")){
             if ( document.getElementById("ruban3").src.match("../DocsImgs/jeu/Ruban_gris.png")){
-                window.location.replace("/groupe3cir1n.github.io/html/informations-contacte.html");
+                window.location.replace("/html/informations-contacte.html");
             }
         }
     }

@@ -147,7 +147,7 @@ function submit_form(){
         if ( adresse_mail() == true ){
             if ( text_area() == true ) {
                 console.log("Bravo");
-                window.location.replace("/groupe3cir1n.github.io/html/jeu.html");
+                window.location.replace("/html/jeu.html");
             }
             else{
                 console.log("text area wrong");
