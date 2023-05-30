@@ -35,14 +35,16 @@ canvas {
 #chercheurs {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #autre {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.carte{
+.carte, .newcarte{
 
     text-align: center;
 
@@ -81,4 +83,21 @@ canvas {
     filter: invert(100%);
     -webkit-filter: invert(100%);
     transition: 500ms;
+}
+
+#b_edit {
+    margin: 2em;
+    float: right;
+    background-color: grey;
+}
+
+#addmembre {
+    margin: 2em;
+    float: left;
+    background-color: grey;
+    visibility: hidden;
+}
+
+.supr {
+    color: red;
 }
