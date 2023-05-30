@@ -147,6 +147,7 @@ function submit_form(){
         if ( adresse_mail() == true ){
             if ( text_area() == true ) {
                 console.log("Bravo");
+                window.location="../html/jeu.html";
             }
             else{
                 console.log("text area wrong");
