@@ -126,8 +126,8 @@ function text_area(){
     if ( n < 20 ){
         console.log("Votre mail est trop court...");
         erreur.innerHTML = "Votre mail est trop court" ;
-    }
-    if ( n > 1000 ){
+    } 
+    else if ( n > 1000 ){
         console.log("Votre mail est trop long...");
         erreur.innerHTML = "Votre mail est trop long" ;
     }
