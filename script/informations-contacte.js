@@ -30,16 +30,16 @@ function prenom_nom(){
 
     if ( res == false ) {
         if (valid1 < 2 && valid2 == true){
-            console.log("Il manque un mot ( prénom ou nom )");
-            erreur.innerHTML = "Il manque un mot ( prénom ou nom )" ;
+            console.log("Il manque un mot ( prénom ou nom ) / ou des majuscules");
+            erreur.innerHTML = "Il manque un mot ( prénom ou nom ) / ou des majuscules" ;
         }
         if (valid1 >= 2 && valid2 == true){
             console.log("Il manque un espace");
             erreur.innerHTML = "Il manque un espace" ;
         }
         if (valid1 < 2 && valid2 == false){
-            console.log("Il manque un espace et un mot ( prénom ou nom )");
-            erreur.innerHTML = "Il manque un espace et un mot ( prénom ou nom )" ;
+            console.log("Il manque un espace et un mot ( prénom ou nom ) / ou des majuscules");
+            erreur.innerHTML = "Il manque un espace et un mot ( prénom ou nom ) / ou des majuscules" ;
         }
     }
     
@@ -143,9 +143,9 @@ function text_area(){
 
 function submit_form(){
 
-    if ( prenom_nom == true ){
-        if ( adresse_mail == true ){
-            if ( text_area == true ) {
+    if ( prenom_nom() == true ){
+        if ( adresse_mail() == true ){
+            if ( text_area() == true ) {
                 console.log("Bravo");
             }
             else{
