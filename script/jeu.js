@@ -1,3 +1,6 @@
+console.log("loading jeu");
+console.log(document.getElementById("Modal_Type"));
+console.log("post load");
 function search_type(){
 
     let unknown = document.getElementById("Unknown");
@@ -10,15 +13,19 @@ function search_type(){
         if ( type == 'Combat' || type == 'combat'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
+            affichage_type();
         }
         if ( type == "Feu" || type == 'feu'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Sol"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -27,29 +34,34 @@ function search_type(){
         if ( type == "Fee" || type == 'fee'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Dragon" || type == 'dragon'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Glace" || type == "glace"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/ype_Electrik.png")){
+    if ( unknown.src.match("../DocsImgs/jeu/Type_Electrik.png")){
         if ( type == "Sol" || type == 'sol'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -58,16 +70,19 @@ function search_type(){
         if ( type == "Eau" || type == 'eau'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Roche" || type == 'roche'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -76,16 +91,19 @@ function search_type(){
         if ( type == "Feu" || type == 'feu'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Roche" || type == "roche"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Vol" || type == 'vol'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -94,26 +112,31 @@ function search_type(){
         if ( type == "Feu" || type == 'feu'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Poison" || type == "poison"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Glace" || type == 'glace'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Insecte" || type == "insecte"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Vol" || type == "vol"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -122,21 +145,25 @@ function search_type(){
         if ( type == "Insecte" || type == 'insecte'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Spectre" || type == "spectre"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Ténèbres" || type == 'ténèbres'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Tenebres" || type == "tenebres"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -145,16 +172,19 @@ function search_type(){
         if ( type == "Plante" || type == 'plante'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Eau" || type == "eau"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Glace" || type == 'glace'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -163,21 +193,25 @@ function search_type(){
         if ( type == "Fee" || type == 'fee'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Combat" || type == 'combat'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Insecte" || type == "insecte"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -186,21 +220,25 @@ function search_type(){
         if ( type == "Fee" || type == 'fee'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Psy" || type == 'psy'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Vol" || type == "vol"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -209,26 +247,31 @@ function search_type(){
         if ( type == "Plante" || type == 'plante'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Electrique" || type == "electrique"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Électrique" || type == 'électrique'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Electrik" || type == "electrik"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Électrik" || type == "électrik"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -237,11 +280,13 @@ function search_type(){
         if ( type == "Acier" || type == 'acier'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Poison" || type == "poison"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -250,21 +295,25 @@ function search_type(){
         if ( type == "Roche" || type == "roche"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Feu" || type == 'feu'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Acier" || type == "acier"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Combat" || type == "combat"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -273,6 +322,7 @@ function search_type(){
         if ( type == "Combat" || type == 'combat'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -281,11 +331,13 @@ function search_type(){
         if ( type == "Psy" || type == 'psy'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -294,26 +346,31 @@ function search_type(){
         if ( type == "Acier" || type == 'acier'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Combat" || type == "combat"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Eau" || type == 'eau'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Plante" || type == "plante"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -322,16 +379,19 @@ function search_type(){
         if ( type == "Spectre" || type == 'spectre'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Ténèbres" || type == "ténèbres"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Tenebres" || type == "tenebres"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -340,31 +400,37 @@ function search_type(){
         if ( type == "Glace" || type == 'glace'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Roche" || type == "roche"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Electrique" || type == "electrique"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Électrique" || type == 'électrique'){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Electrik" || type == "electrik"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Électrik" || type == "électrik"){
             console.log("Bravo");
             Ruban();
+            document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
@@ -468,7 +534,5 @@ function Ruban(){
                 console.log("Bravo vous avez gagner le jeu");
 
                 document.getElementById("felicitation").innerHTML = "Félicitation ! Votre mail sera bien envoyer comme prévu";
-
-                document.getElementById("Modal_Type").style.display = "none"; 
             }
 }
