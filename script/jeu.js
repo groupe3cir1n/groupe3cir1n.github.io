@@ -10,14 +10,17 @@ function search_type(){
         if ( type == 'Combat' || type == 'combat'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Feu" || type == 'feu'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Sol"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -25,18 +28,22 @@ function search_type(){
         if ( type == "Fee" || type == 'fee'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Dragon" || type == 'dragon'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Glace" || type == "glace"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -44,6 +51,7 @@ function search_type(){
         if ( type == "Sol" || type == 'sol'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -51,14 +59,17 @@ function search_type(){
         if ( type == "Eau" || type == 'eau'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Roche" || type == 'roche'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -66,14 +77,17 @@ function search_type(){
         if ( type == "Feu" || type == 'feu'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Roche" || type == "roche"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Vol" || type == 'vol'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -81,22 +95,27 @@ function search_type(){
         if ( type == "Feu" || type == 'feu'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Poison" || type == "poison"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Glace" || type == 'glace'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Insecte" || type == "insecte"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Vol" || type == "vol"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -104,18 +123,22 @@ function search_type(){
         if ( type == "Insecte" || type == 'insecte'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Spectre" || type == "spectre"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Ténèbres" || type == 'ténèbres'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Tenebres" || type == "tenebres"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -123,14 +146,17 @@ function search_type(){
         if ( type == "Plante" || type == 'plante'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Eau" || type == "eau"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Glace" || type == 'glace'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -138,18 +164,22 @@ function search_type(){
         if ( type == "Fee" || type == 'fee'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Combat" || type == 'combat'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Insecte" || type == "insecte"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -157,18 +187,22 @@ function search_type(){
         if ( type == "Fee" || type == 'fee'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Psy" || type == 'psy'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Vol" || type == "vol"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -176,22 +210,27 @@ function search_type(){
         if ( type == "Plante" || type == 'plante'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Electrique" || type == "electrique"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Électrique" || type == 'électrique'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Electrik" || type == "electrik"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Électrik" || type == "électrik"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -199,10 +238,12 @@ function search_type(){
         if ( type == "Acier" || type == 'acier'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Poison" || type == "poison"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -210,18 +251,22 @@ function search_type(){
         if ( type == "Roche" || type == "roche"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Feu" || type == 'feu'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Acier" || type == "acier"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Combat" || type == "combat"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -229,6 +274,7 @@ function search_type(){
         if ( type == "Combat" || type == 'combat'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -236,10 +282,12 @@ function search_type(){
         if ( type == "Psy" || type == 'psy'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -247,22 +295,27 @@ function search_type(){
         if ( type == "Acier" || type == 'acier'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Combat" || type == "combat"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Eau" || type == 'eau'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Plante" || type == "plante"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -270,14 +323,17 @@ function search_type(){
         if ( type == "Spectre" || type == 'spectre'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Ténèbres" || type == "ténèbres"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Tenebres" || type == "tenebres"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
@@ -285,26 +341,32 @@ function search_type(){
         if ( type == "Glace" || type == 'glace'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Roche" || type == "roche"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Electrique" || type == "electrique"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Électrique" || type == 'électrique'){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Electrik" || type == "electrik"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
         if ( type == "Électrik" || type == "électrik"){
             console.log("Bravo");
             Ruban();
+            affichage_type();
         }
     }
 
