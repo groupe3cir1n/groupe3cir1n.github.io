@@ -1,7 +1,11 @@
-// 
+// Filtre en fonction des noms d'auteur
 function filtreAuteur(element){
+
+    // Récupère tous les champs d'auteurs ainsi que le filtre appliquer
     let auteur = element.value.toLowerCase();
     let textes = document.getElementsByClassName("auteur");
+
+    // Puis pour chaque carte, la rend invisible si le filtre ne correspond pas
     for (const auteurs of textes) {
         if(contient(auteurs.innerHTML.toLocaleLowerCase(), auteur.toLocaleLowerCase()) || auteur == ""){
             auteurs.parentNode.parentNode.parentNode.style.display = "grid"; // rendre la carte visible
@@ -12,8 +16,12 @@ function filtreAuteur(element){
 }
 
 function filtreTitre(element){
+
+    // Récupère tous les champs de titre ainsi que le filtre appliquer
     let titre = element.value.toLowerCase();
     let textes = document.getElementsByClassName("partie");
+    
+    // Puis pour chaque carte, la rend invisible si le filtre ne correspond pas
     for (const titres of textes) {
         if(contient(titres.innerHTML.toLocaleLowerCase(), titre.toLocaleLowerCase()) || titre == ""){
             titres.parentNode.parentNode.style.display = "grid"; // rendre la carte visible
@@ -24,9 +32,13 @@ function filtreTitre(element){
 }
 
 function filtreDate(element){
+
+    // Récupère tous les champs de date ainsi que le filtre appliquer
     let date_recrup = element.value;
     let annee = date_recrup[0] + date_recrup[1] + date_recrup[2] + date_recrup[3];
     let dates = document.getElementsByClassName("date");
+    
+    // Puis pour chaque carte, la rend invisible si le filtre ne correspond pas
     for (const date of dates) {
         if(contient(date.innerHTML.toLocaleLowerCase(), annee) || date_recrup == ""){
             date.parentNode.parentNode.parentNode.style.display = "grid"; // rendre la carte visible
@@ -37,6 +49,8 @@ function filtreDate(element){
 }
 
 function filtreTout(){
+
+    // affiche tout les cartes
     let cartes = document.getElementsByClassName("carte");
     for (const carte of cartes) {
         carte.style.display = "grid";
@@ -44,6 +58,8 @@ function filtreTout(){
 }
 
 function filtreCommunication(){
+
+    
     let cartes = document.getElementsByClassName("carte");
     for (const carte of cartes) {
         if(carte.children[0].className == "color2"){
