@@ -33,7 +33,7 @@ function prenom_nom(){
             console.log("Il manque un mot ( prénom ou nom ) / ou des majuscules");
             erreur.innerHTML = "Il manque un mot ( prénom ou nom ) / ou des majuscules" ;
         }
-        if (valid1 >= 2 && valid2 == true){
+        if (valid1 >= 2 && valid2 == false){
             console.log("Il manque un espace");
             erreur.innerHTML = "Il manque un espace" ;
         }
@@ -143,11 +143,13 @@ function text_area(){
 
 function submit_form(){
 
+    let correct = document.getElementById("correct") ; //correct
+
     if ( prenom_nom() == true ){ //si prénom / nom sans erreur
         if ( adresse_mail() == true ){ //si mail sans erreur
             if ( text_area() == true ) { //si mail pas trop court ni trop long
                 console.log("Bravo"); //Bravo
-                window.location.assign("/html/jeu.html"); //Envoie sur la page du jeu... normalement
+                correct.innerHTML = "Bravo" ;
             }
             else{
                 console.log("text area wrong");
@@ -161,3 +163,27 @@ function submit_form(){
         console.log("prenom wrong");
     }
 }
+
+function main(){
+
+    var modal_type = document.getElementById("Modal_Type"); //réccupère la div du modal / zone
+    var button = document.getElementById("button"); //texte clicable pour ouvrir modal
+    var span = document.getElementsByClassName("close_lab")[0]; //pour fermer
+
+    button.onclick = function() { //si clic sur le texte
+        modal_type.style.display = "block"; //ouverture
+    }
+
+    span.onclick = function() { //si clic sur la croix
+        modal_type.style.display = "none"; //fermeture
+    }
+
+    window.onclick = function(event) { //si on clic en dehors du modal il se ferme
+        if (event.target == modal_type) {
+            modal_type.style.display = "none";
+        }
+    }
+
+}
+
+main();
