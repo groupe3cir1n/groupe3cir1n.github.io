@@ -140,4 +140,14 @@ function suprime(elem){
     supr.remove();
 }
 
+function addToModal(carte){
+    let modal_content = document.getElementById("modal-content");
+    modal_content.innerHTML = "<span class='supr' onclick='fermerModal(this.parentNode.parentNode)'>X</span><br>" + carte.innerHTML;
+    modal_content.parentNode.style.display = "block";
+}
+
+function fermerModal(membre) {
+    membre.style.display = "none";
+}
+
 main();
