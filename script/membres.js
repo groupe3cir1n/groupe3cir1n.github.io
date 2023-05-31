@@ -32,7 +32,7 @@ function gratte(e){
     let context = get2DContext("couverture");
     let canvas = document.getElementById("couverture"); 
     // utilisé avec offsetLeft et offsetTop pour déterminer les positions de l'image
-    context.clearRect(e.clientX-canvas.offsetLeft-5, e.pageY-canvas.offsetTop-5, 10, 10); // clearRect efface une partie du canvas et e.pageY récupère la position de la souris
+    context.clearRect(e.clientX - canvas.offsetLeft-5, e.pageY - canvas.offsetTop-5, 10, 10); // clearRect efface une partie du canvas et e.pageY récupère la position de la souris
 }
 
 // Gestion du mode édition
