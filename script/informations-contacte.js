@@ -145,11 +145,15 @@ function submit_form(){
 
     let correct = document.getElementById("correct") ; //correct
 
+    let iframe = document.querySelector("iframe") ;
+
     if ( prenom_nom() == true ){ //si prénom / nom sans erreur
         if ( adresse_mail() == true ){ //si mail sans erreur
             if ( text_area() == true ) { //si mail pas trop court ni trop long
                 console.log("Bravo"); //Bravo
                 correct.innerHTML = "Bravo" ;
+
+                iframe.src = "../html/jeu.html"
             }
             else{
                 console.log("text area wrong");
