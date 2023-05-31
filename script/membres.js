@@ -71,6 +71,11 @@ function mode_editeur(){
     button.style.color = "white";
     button.innerHTML = "Quitter le mode éditeur"; // qui devient quitté l'éditeur
     
+    let cartes = document.getElementsByClassName("carte");
+    for (const carte of cartes) {
+        carte.setAttribute("onclick", "");
+    }
+    
     // Les noms des membres existant deviennent éditables
     let noms = document.getElementsByClassName("name");
     for (const nom of noms) {
@@ -78,8 +83,8 @@ function mode_editeur(){
     }
 
     // Les cartes entières des membres ajoutés en mode édition sont modifiables
-    let cartes = document.getElementsByClassName("newcarte");
-    for (const carte of cartes) {
+    let new_cartes = document.getElementsByClassName("newcarte");
+    for (const carte of new_cartes) {
         carte.setAttribute("contentEditable", true);
     }
 
@@ -103,6 +108,12 @@ function mode_normal(){
     button.style.color = "black";
     button.innerHTML = "Mode Editeur";
 
+
+    let cartes = document.getElementsByClassName("carte");
+    for (const carte of cartes) {
+        carte.setAttribute("onclick", "addToModal(this)");
+    }
+
     // Les noms des membres existant deviennent non éditables
     let noms = document.getElementsByClassName("name");
     for (const nom of noms) {
@@ -110,8 +121,8 @@ function mode_normal(){
     }
 
     // Les cartes entières des membres ajoutés en mode édition sont non modifiables
-    let cartes = document.getElementsByClassName("newcarte");
-    for (const carte of cartes) {
+    let new_cartes = document.getElementsByClassName("newcarte");
+    for (const carte of new_cartes) {
         carte.setAttribute("contentEditable", false);
     }
 
