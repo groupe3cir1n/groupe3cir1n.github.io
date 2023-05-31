@@ -113,15 +113,12 @@ function text_area(){
     let res = false ;
     
     let area = document.getElementById("input_area").value; //corp du mail
-    console.log(area);
 
     let erreur = document.getElementById("txt_erreur3") ; //error
 
     let tab_area = area.split(""); //array
-    console.log(tab_area);
 
     let n = tab_area.length ; //size
-    console.log(n);
 
     if ( n < 20 ){
         console.log("Votre mail est trop court...");
@@ -136,7 +133,6 @@ function text_area(){
         erreur.innerHTML = " ";
     }
 
-    console.log(res);
     return res;
 
 }
@@ -150,7 +146,6 @@ function submit_form(){
     if ( prenom_nom() == true ){ //si prénom / nom sans erreur
         if ( adresse_mail() == true ){ //si mail sans erreur
             if ( text_area() == true ) { //si mail pas trop court ni trop long
-                console.log("Bravo"); //Bravo
                 correct.innerHTML = "Bravo" ;
             }
             else{

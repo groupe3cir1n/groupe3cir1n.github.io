@@ -1,6 +1,3 @@
-console.log("loading jeu");
-console.log(document.getElementById("Modal_Type"));
-console.log("post load");
 function search_type(){
 
     let unknown = document.getElementById("Unknown");
@@ -11,424 +8,362 @@ function search_type(){
 
     if ( unknown.src.match("../DocsImgs/jeu/Type_Acier.png")){
         if ( type == 'Combat' || type == 'combat'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Feu" || type == 'feu'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Sol"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Dragon.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Dragon.png")){
         if ( type == "Fee" || type == 'fee'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Dragon" || type == 'dragon'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Glace" || type == "glace"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Electrik.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Electrik.png")){
         if ( type == "Sol" || type == 'sol'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Feu.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Feu.png")){
         if ( type == "Eau" || type == 'eau'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Roche" || type == 'roche'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Insecte.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Insecte.png")){
         if ( type == "Feu" || type == 'feu'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Roche" || type == "roche"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Vol" || type == 'vol'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Plante.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Plante.png")){
         if ( type == "Feu" || type == 'feu'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Poison" || type == "poison"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Glace" || type == 'glace'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Insecte" || type == "insecte"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Vol" || type == "vol"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Psy.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Psy.png")){
         if ( type == "Insecte" || type == 'insecte'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Spectre" || type == "spectre"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Ténèbres" || type == 'ténèbres'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Tenebres" || type == "tenebres"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Sol.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Sol.png")){
         if ( type == "Plante" || type == 'plante'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Eau" || type == "eau"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Glace" || type == 'glace'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Tenebres.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Tenebres.png")){
         if ( type == "Fee" || type == 'fee'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Combat" || type == 'combat'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Insecte" || type == "insecte"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Combat.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Combat.png")){
         if ( type == "Fee" || type == 'fee'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Fée" || type == "fée"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Psy" || type == 'psy'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Vol" || type == "vol"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Eau.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Eau.png")){
         if ( type == "Plante" || type == 'plante'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Electrique" || type == "electrique"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Électrique" || type == 'électrique'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Electrik" || type == "electrik"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Électrik" || type == "électrik"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Fee.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Fee.png")){
         if ( type == "Acier" || type == 'acier'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Poison" || type == "poison"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Glace.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Glace.png")){
         if ( type == "Roche" || type == "roche"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Feu" || type == 'feu'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Acier" || type == "acier"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Combat" || type == "combat"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Normal.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Normal.png")){
         if ( type == "Combat" || type == 'combat'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Poison.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Poison.png")){
         if ( type == "Psy" || type == 'psy'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Roche.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Roche.png")){
         if ( type == "Acier" || type == 'acier'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Combat" || type == "combat"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Eau" || type == 'eau'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Plante" || type == "plante"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Sol" || type == "sol"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Spectre.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Spectre.png")){
         if ( type == "Spectre" || type == 'spectre'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Ténèbres" || type == "ténèbres"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Tenebres" || type == "tenebres"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
     }
 
-    if ( unknown.src.match("../DocsImgs/jeu/Type_Vol.png")){
+    else if ( unknown.src.match("../DocsImgs/jeu/Type_Vol.png")){
         if ( type == "Glace" || type == 'glace'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Roche" || type == "roche"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Electrique" || type == "electrique"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Électrique" || type == 'électrique'){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Electrik" || type == "electrik"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
         }
         if ( type == "Électrik" || type == "électrik"){
-            console.log("Bravo");
             Ruban();
             document.getElementById("input_type").value = "";
             affichage_type();
@@ -536,6 +471,9 @@ function Ruban(){
                 document.getElementById("felicitation").innerHTML = "Félicitation ! Votre mail sera bien envoyer comme prévu";
 
                 document.getElementById("Modal_Type").style.display = "none";
-                
+                document.getElementById("input_prenom").value = "";
+                document.getElementById("input_adresse").value = "";
+                document.getElementById("input_area").value = "";
+
             }
 }
