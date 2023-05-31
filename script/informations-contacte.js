@@ -2,15 +2,15 @@ function prenom_nom(){
 
     let res = false ;
     
-    let name = document.getElementById("input_prenom").value;
+    let name = document.getElementById("input_prenom").value; //Pour réccupérer la valeur entrer par l'utilisateur
     //console.log(name);
 
-    let erreur = document.getElementById("txt_erreur1") ;
+    let erreur = document.getElementById("txt_erreur1") ; //zone pour dire ou il y a une erreur
 
-    let tab_name = name.split("");
+    let tab_name = name.split(""); // transforme le texte en tableau
     //console.log(tab_name);
 
-    let n = tab_name.length ;
+    let n = tab_name.length ; //size
     //console.log(n);
 
     valid1 = 0 ; // Il n'y a pas de majuscule ( il en faut deux )
@@ -19,11 +19,11 @@ function prenom_nom(){
     for ( let i = 0 ; i < n ; i ++ ){
 
         if ( tab_name[i] == ' '){ //si expace
-            valid2 = true ;  //condition 2 valider
+            valid2 = true ;  //true
         }
 
-        else if ( tab_name[i] == tab_name[i].toUpperCase()){
-            valid1 ++;
+        else if ( tab_name[i] == tab_name[i].toUpperCase()){ //si majuscule
+            valid1 ++; //condition à valider 2 fois
         }
 
     }
@@ -45,7 +45,7 @@ function prenom_nom(){
     
     if ( valid1 >= 2 && valid2 == true ){
         res = true;
-        erreur.innerHTML = "";
+        erreur.innerHTML = " ";
     }
 
     //console.log(res);
@@ -57,15 +57,15 @@ function adresse_mail(){
 
     let res = false ;
     
-    let mail = document.getElementById("input_adresse").value;
+    let mail = document.getElementById("input_adresse").value; //mail entrez par l'user
     //console.log(mail);
 
-    let erreur = document.getElementById("txt_erreur2") ;
+    let erreur = document.getElementById("txt_erreur2") ; //Texte si error
 
-    let tab_mail = mail.split("");
+    let tab_mail = mail.split(""); //array
     //console.log(tab_mail);
 
-    let n = tab_mail.length ;
+    let n = tab_mail.length ; //size
     //console.log(n);
 
     valid1 = false ; // Il y a un @
@@ -112,15 +112,15 @@ function text_area(){
 
     let res = false ;
     
-    let area = document.getElementById("input_area").value;
+    let area = document.getElementById("input_area").value; //corp du mail
     console.log(area);
 
-    let erreur = document.getElementById("txt_erreur3") ;
+    let erreur = document.getElementById("txt_erreur3") ; //error
 
-    let tab_area = area.split("");
+    let tab_area = area.split(""); //array
     console.log(tab_area);
 
-    let n = tab_area.length ;
+    let n = tab_area.length ; //size
     console.log(n);
 
     if ( n < 20 ){
@@ -143,11 +143,11 @@ function text_area(){
 
 function submit_form(){
 
-    if ( prenom_nom() == true ){
-        if ( adresse_mail() == true ){
-            if ( text_area() == true ) {
-                console.log("Bravo");
-                window.location.replace("/html/jeu.html");
+    if ( prenom_nom() == true ){ //si prénom / nom sans erreur
+        if ( adresse_mail() == true ){ //si mail sans erreur
+            if ( text_area() == true ) { //si mail pas trop court ni trop long
+                console.log("Bravo"); //Bravo
+                window.location.assign("/html/jeu.html"); //Envoie sur la page du jeu... normalement
             }
             else{
                 console.log("text area wrong");
