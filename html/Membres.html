@@ -55,6 +55,13 @@
       </div>
     </header>
     <main>
+      <div id="modal">
+        <div id="modal-content">
+          <span class="supr" onclick="fermerModal(this.parentNode.parentNode)">X</span>
+          <br>
+          <!-- Ajout de la carte membre -->
+        </div>
+      </div>
       <button id="addmembre" onclick="addMembre()">Ajouter un membre</button>
       <button id="b_edit" onclick="editor()">Mode Editeur</button>
       <div id="titre">
@@ -63,7 +70,7 @@
       </div>
       <div id="conteneur">
         <div id="chercheurs">
-          <div class="carte">
+          <div class="carte" onclick="addToModal(this)">
             <div>
               <canvas id="couverture" height="200" width="200"></canvas>
               <img src="../DocsImgs/photo/Ayoub.png">
@@ -90,7 +97,7 @@
               </div>
             </div>
           </div>
-          <div class="carte">
+          <div class="carte" onclick="addToModal(this)">
             <div>
               <img src="../DocsImgs/photo/Maher.png">
             </div>
@@ -118,7 +125,7 @@
           </div>
         </div>
         <div id="autre">
-          <div class="carte">
+          <div class="carte" onclick="addToModal(this)">
             <div>
               <img src="../DocsImgs/photo/salima.png">
             </div>
@@ -133,7 +140,7 @@
               <p>Période : 01/2022 au 04/2023</p>
             </div>
           </div>
-          <div class="carte">
+          <div class="carte" onclick="addToModal(this)">
             <div>
               <img src="../DocsImgs/photo/Sylvain.png">
             </div>
@@ -147,7 +154,7 @@
               <p>Période : 01/2022 au 04/2023</p>
             </div>
           </div>
-          <div class="carte">
+          <div class="carte" onclick="addToModal(this)">
             <div>
               <img src="../DocsImgs/photo/Dajmel.png">
             </div>
@@ -159,7 +166,7 @@
               <p>Période : 01/2022 au 04/2023</p>
             </div>
           </div>
-          <div class="carte">
+          <div class="carte" onclick="addToModal(this)">
             <div>
               <img src="../DocsImgs/photo/salima.png">
             </div>

@@ -1,3 +1,4 @@
+//
 function filtreAuteur(element){
     let auteur = element.value.toLowerCase();
     let textes = document.getElementsByClassName("auteur");
