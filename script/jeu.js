@@ -408,5 +408,6 @@ function Ruban(){
 
                 document.getElementById("felicitation").innerHTML = "Félicitation ! Votre mail sera bien envoyer comme prévu";
 
+                document.getElementById("Modal_Type").style.display = "none"; 
             }
 }

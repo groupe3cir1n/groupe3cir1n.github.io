@@ -152,8 +152,6 @@ function submit_form(){
             if ( text_area() == true ) { //si mail pas trop court ni trop long
                 console.log("Bravo"); //Bravo
                 correct.innerHTML = "Bravo" ;
-
-                iframe.src = "../html/jeu.html"
             }
             else{
                 console.log("text area wrong");
@@ -175,7 +173,9 @@ function main(){
     var span = document.getElementsByClassName("close_lab")[0]; //pour fermer
 
     button.onclick = function() { //si clic sur le texte
-        modal_type.style.display = "block"; //ouverture
+        if(prenom_nom() && adresse_mail() && text_area()){
+            modal_type.style.display = "block"; //ouverture
+        }
     }
 
     span.onclick = function() { //si clic sur la croix
